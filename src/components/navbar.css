@@ -1,0 +1,64 @@
+.navbar {
+    position: absolute;
+    /* top: 2vh; */
+    padding: 1rem;
+    width: 100%;
+    z-index: 1000;
+    /* left: 2vw; */
+}
+
+.ul1, .ul2 {
+    display: flex;
+    float: left;
+    position: absolute;
+    /* top: 20vh; */
+    padding: 0;
+}
+.ul1 li{
+    /* position: relative;
+    padding:0;
+    margin: 0; */
+}
+.ul2 li{
+    position: relative;
+    top: 3.2vh;
+    padding:0 15.2% 0 15.5%;
+}
+.ul2 li:last-child{
+    padding: 0 5%;
+}
+.ul1 img {
+    /* padding: 1px; */
+    /* margin: 0; */
+    width: 10vw;
+    float: left;
+    aspect-ratio: 2/1;
+    /* vertical-align: bottom; */
+}
+
+.ul2 li {
+    list-style-type: none;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    /* padding-right: 30px; */
+    line-height: 20px;
+    vertical-align: top;
+    transition: 500ms linear;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: 500ms linear;
+}
+
+.navbar li a:hover {
+    color: black;
+}
+
+@media screen and (max-width: 800px){
+    .navbar{
+        display: none;
+      }
+}
